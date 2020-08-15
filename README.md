@@ -24,3 +24,7 @@ Se debe descargar `bspwm` y `sxhkd`.
   # pacman -S bspwm
   # pacman -S sxhkd
 ~~~
+
+
+## Github de los programas
+- [SXHKD](https://github.com/baskerville/sxhkd).
