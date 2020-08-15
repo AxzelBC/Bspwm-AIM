@@ -5,11 +5,11 @@ Configuración personal de Bspwm. Esta configuración requiere de Polybar, Compt
 #### (De vital importancia que cada software tenga sus respectivas dependencias.)
 
 
-## Bspwm & sxhkd
+## Bspwm & Sxhkd
 
 
 ## Descarga
-Se debe descargar ´bspwm´ y ´sxhkd´.
+Se debe descargar `bspwm` y `sxhkd`.
 
 ~~~sh
   $ pacman -S bspwm
