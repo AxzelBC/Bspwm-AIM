@@ -1,0 +1,66 @@
+#! /bin/sh
+
+
+##Procesos en segundo plano
+
+sxhkd &
+wmname LG3D &
+nitrogen --set-auto /home/axzel/Imágenes/Saved Pictures/wp5741704.png &
+compton --config /home/axzel/.config/compton/compton.conf &
+~/.config/polybar/launch.sh &
+
+##Tecla "maestra"
+
+bspc config pointer_modifier mod1
+
+
+##Monitores
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+
+##Bordes de las ventanas
+bspc config border_width         0
+##Distancia de las ventanas
+bspc config window_gap           0
+
+
+##Aún no sé x2
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+
+##Escritorio 1
+
+##Escritorio 2
+
+bspc rule -a Chromium desktop='^2'
+
+##Escritorio 3
+
+##Escritorio 4
+
+##Escritorio 5
+
+##Escritorio 6
+
+##Escritorio 7
+
+##Escritorio 8
+
+bspc rule -a Gimp desktop='^5' state=floating follow=on
+
+##Escritorio 9
+
+##Escritorio 10
+
+
+##APPS
+
+##bspc rule -a Gimp desktop='^8' state=floating follow=on
+##bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
