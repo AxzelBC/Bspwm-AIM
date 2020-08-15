@@ -11,9 +11,9 @@ Para agregar las fonts personalizadas al sistema debes asegurarte que la carpeta
 ### Instalación
 Entrar en el archivo descargado de git y seguir la siguiente secuencia de comando:
 
-~~~
+~~~sh
   $ cd Bspwm-AIM
-  $ cp -r ~/Bspwm-AIM/fonts /usr/local/share/fonts/
+  $ sudo cp -r ~/Bspwm-AIM/fonts /usr/local/share/fonts/
 ~~~
 
 Y listo.
@@ -24,7 +24,7 @@ Y listo.
 ### Instalación de prerequisitos
 Instalación de `Nitrogen`, `Feh`, `Rofi` y `Dmenu`.
 
-~~~
+~~~sh
   # pacman -S nitrogen
   # pacman -S feh
   # pacman -S rofi
@@ -35,14 +35,36 @@ Instalación de `Nitrogen`, `Feh`, `Rofi` y `Dmenu`.
 ### Descarga
 Se debe descargar `bspwm` y `sxhkd`.
 
-~~~
+~~~sh
   # pacman -S bspwm
   # pacman -S sxhkd
 ~~~
 
 ### Instalación de la configuración
 
+Crear (o tener creado) en la carpeta `/.config` los siguientes ficheros: `compton`, `sxhkd`, `bspwm` y `polybar`.
 
+Para crearlos sigue esta secuencia de comandos:
+
+~~~sh
+  $ cd $HOME/.config
+  $ sudo mkdir compton sxhkd bspwm polybar
+~~~
+
+Y listo.
+
+
+Ahora, para copiar las configuración.
+
+~~~sh
+  $ cd ~/Bspwm-AIM
+  $ sudo cp -r ~/Bspwm-AIM/bspwm/ ~/.config/bspwm
+  $ sudo cp -r ~/Bspwm-AIM/sxhkd/ ~/.config/sxhkd
+  $ sudo cp -r ~/Bspwm-AIM/compton/ ~/.config/compton
+  $ sudo cp -r ~/Bspwm-AIM/polybar/ ~/.config/polybar
+~~~
+
+Eso seria todo.
 
 ## Github de los programas
 - [bspwm](https://github.com/baskerville/bspwm).
