@@ -2,7 +2,21 @@
 
 Configuración personal de Bspwm. Esta configuración requiere de Polybar, Compton, Nitrogen, Feh, Rofi y Dmenu para su funcionamiento básico.
 
-#### (De vital importancia que cada software tenga sus respectivas dependencias.)
+**(De vital importancia que cada software tenga sus respectivas dependencias.)**
+
+
+## Fuentes
+Para agregar las fonts personalizadas al sistema debes asegurarte que la carpeta `/usr/local/share/fonts/` exista, de no ser así debes crearla con el siguiente comando: `# mkdir /usr/local/share/fonts`.
+
+### Instalación
+Entrar en el archivo descargado de git y seguir la siguiente secuencia de comando:
+
+~~~
+  $ cd Bspwm-AIM
+  $ cp -r ~/Bspwm-AIM/fonts /usr/local/share/fonts/
+~~~
+
+Y listo.
 
 
 ## Bspwm & Sxhkd
