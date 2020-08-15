@@ -7,7 +7,7 @@ Configuración personal de Bspwm. Esta configuración requiere de Polybar, Compt
 
 ## Bspwm & Sxhkd
 
-## Instalación de prerequisitos
+### Instalación de prerequisitos
 Instalación de `Nitrogen`, `Feh`, `Rofi` y `Dmenu`.
 
 ~~~
@@ -15,16 +15,26 @@ Instalación de `Nitrogen`, `Feh`, `Rofi` y `Dmenu`.
   # pacman -S feh
   # pacman -S rofi
   # pacman -S dmenu
+  # pacman -S compton
 ~~~
 
-## Descarga
+### Descarga
 Se debe descargar `bspwm` y `sxhkd`.
 
-~~~sh
+~~~
   # pacman -S bspwm
   # pacman -S sxhkd
 ~~~
 
+### Instalación de la configuración
+
+
 
 ## Github de los programas
-- [SXHKD](https://github.com/baskerville/sxhkd).
+- [bspwm](https://github.com/baskerville/bspwm).
+- [sxhkd](https://github.com/baskerville/sxhkd).
+- [nitrogen](https://github.com/l3ib/nitrogen).
+- [feh](https://github.com/derf/feh).
+- [rofi](https://github.com/davatorium/rofi).
+- [dmenu](https://github.com/stilvoid/dmenu).
+- [compton](https://github.com/chjj/compton).
